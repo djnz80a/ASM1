@@ -5,10 +5,10 @@ Z80 Self Assembler for MSX-DOS
 
 usage:
 ````
-	ASM1.COM <source file> [option]
+	ASM1 <source file> [<output file>] [option]
 
 	option:
-		/B .. add bsave/bload file header
+		/B .. output bsave/bload file to .OBJ file
 		/L .. output label values listing to .LBL file
 ````
 
