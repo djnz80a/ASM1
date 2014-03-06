@@ -4,11 +4,13 @@ ASM1
 Z80 Self Assembler for MSX-DOS
 
 usage:
+````
 	ASM1.COM <source file> [option]
 
 	option:
 		/B .. add bsave/bload file header
-		/L .. output label value listing
+		/L .. output label values listing to .LBL file
+````
 
 example:
 ````
