@@ -29,5 +29,8 @@ end address = 0118
 label(s)    = 1
 4:19:45:0
 
+A>HELLO
+Hello!, World!
+
 A>
 ````
