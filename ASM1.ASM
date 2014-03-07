@@ -6,6 +6,10 @@ W.BUF	EQU	800H	;buffer for write
 
 W.LBL	EQU	6000H	;label
 
+	LD	A,(005DH)
+	CP	21H
+	JP	C,HELP
+
 	LD	C,2CH
 	CALL	0005H
 

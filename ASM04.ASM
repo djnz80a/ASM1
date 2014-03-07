@@ -1230,6 +1230,14 @@ DOS27:	PUSH	IX
 	OR	A
 	RET
 
+
+
+HELP:
+	LD	DE,MES_HELP
+	LD	C,09H
+	CALL	0005H
+	JP	0000H
+
 ERR0:	LD	DE,EMES0
 	JP	ERR_STOP
 
@@ -1351,6 +1359,14 @@ MES1:	DEFM	'==== Z-80A Self Assembler ===='
 	DEFM	'       Programed by djnz80a'
 	DEFB	0DH,0AH,'$'
 MES2:	DEFM	'Pass...$'
+
+MES_HELP:
+	DB	0DH,0AH
+	DB	'ASM1 <source> [<output>] [options]',0DH,0AH
+	DB	'options:',0DH,0AH
+	DB	' /B .. create bsave/bload file(.OBJ)',0DH,0AH
+	DB	' /l .. output label values (.LBL)',0DH,0AH
+	DB	'$'
 
 ;-----
 WORK:
