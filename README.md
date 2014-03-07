@@ -8,8 +8,8 @@ usage:
 	ASM1 <source file> [<output file>] [option]
 
 	option:
-		/B .. output bsave/bload file to .OBJ file
-		/L .. output label values listing to .LBL file
+		/B .. create bsave/bload file (.OBJ)
+		/L .. output label values listing (.LBL)
 ````
 
 example:
@@ -39,6 +39,78 @@ A>HELLO
 Hello!, World!
 
 A>
+````
+
+Z80 Instructions:
+````
+ADC
+ADD
+AND
+BIT
+CALL
+CCF
+CP
+CPD
+CPDR
+CPI
+CPIR
+CPL
+DEC
+DJNZ
+DAA
+DI
+EI
+EX
+EXX
+HALT
+IM
+IN
+INC
+IM
+IND
+INDR
+INI
+INIR
+JP
+JR
+LD
+LDD
+LDDR
+LDI
+LDIR
+NEG
+NOP
+OR
+OTDR
+OTIR
+OUT
+OUTD
+OUTI
+POP
+PUSH
+RES
+RET
+RETI
+RETN
+RL
+RLA
+RLC
+RLCA
+RLD
+RR
+RRA
+RRC
+RRCA
+RRD
+RST
+SBC
+SUB
+SCF
+SET
+SLA
+SRA
+SRL
+XOR
 ````
 
 Pseudo-Instructions:
