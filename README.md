@@ -40,3 +40,23 @@ Hello!, World!
 
 A>
 ````
+
+Pseudo-Instructions:
+````
+ ORG	set orign address
+ ADRS	change address temporaliry
+ END	end of program
+ 
+ DEFB	define byte
+ DEFW	define word
+ DEFM	define message
+ DEFS	define space
+
+ DB	same as DEFB
+ DW	same as DEFW
+ DWR	DW reverse endian
+ DM	same as DEFM
+ DS	same as DEFS
+ 
+ #INCLUDE	include file
+````
