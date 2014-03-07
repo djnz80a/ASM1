@@ -119,6 +119,9 @@ Pseudo-Instructions:
  ADRS	change address temporaliry
  END	end of program
  
+ EQU	define symbol value
+ <label>:	define label
+ 
  DEFB	define byte
  DEFW	define word
  DEFM	define message
